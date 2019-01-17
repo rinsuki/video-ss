@@ -19,4 +19,4 @@
 |Q|A|
 |---|---|
 |Chrome Web Storeに出せ|そのうち|
-|ライセンスは|MIT Liceseなので好き放題してくれ
+|ライセンスは|MIT Licese|
