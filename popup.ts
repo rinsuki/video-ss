@@ -13,6 +13,10 @@ chrome.tabs.getSelected(tab => {
                 code: `[window.devicePixelRatio, Array.from(document.getElementsByTagName("video")).map(v => JSON.parse(JSON.stringify(v.getBoundingClientRect())))]`
             }, ([[dpi, videos, ...others]]) => {
                 console.log(dpi, videos, others)
+                const imgsDiv = document.getElementById("imgs")!
+                if (videos.length === 0) {
+                    imgsDiv.innerText = "videoタグあらへんがな"
+                }
                 videos.forEach((video: any) => {
                     if (video.width === 0) return
                     if (video.height === 0) return
@@ -24,7 +28,7 @@ chrome.tabs.getSelected(tab => {
                     const img = new Image()
                     img.src = canvas.toDataURL("image/png")
                     img.width = 480
-                    document.getElementById("imgs")!.appendChild(img)
+                    imgsDiv.appendChild(img)
                 })
             })
         }
