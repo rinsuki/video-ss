@@ -1,0 +1,10 @@
+{
+  "name": "video-ss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.77",
+    "typescript": "^3.2.2"
+  }
+}

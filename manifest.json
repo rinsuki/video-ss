@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Video SS",
+    "version": "0.1",
+    "browser_action": {
+        "default_title": "Video SS",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "<all_urls>"
+    ]
+}
