@@ -5,7 +5,9 @@
 
 ## 使い方
 
-1. git cloneなりDownload ZIP→解凍なりで落としてくる
+1. git cloneする
+1. yarn installする
+1. yarn buildする
 1. manifest.jsonがあるところを chrome://extensions → パッケージ化されてない拡張機能を読み込む(ないときは右上のデベロッパーモードをONにする) から読み込む
 1. 適当に動画を開く
 1. 右上のVを押す
@@ -17,3 +19,4 @@
 |Q|A|
 |---|---|
 |Chrome Web Storeに出せ|そのうち|
+|ライセンスは|MIT Liceseなので好き放題してくれ
