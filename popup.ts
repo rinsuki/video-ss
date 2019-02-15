@@ -1,5 +1,7 @@
 
-chrome.tabs.getSelected(tab => {
+chrome.tabs.query({active: true}, tabs => {
+    const tab = tabs[0]
+    if (tab == null) return
     chrome.tabs.captureVisibleTab(tab.windowId, {format: "png"}, dataUrl => {
         const img = new Image()
         img.src = dataUrl
