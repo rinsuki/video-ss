@@ -3,6 +3,9 @@
 タブのスクショを撮ってvideoタグのところを切り抜くやつ。
 主にZenzaWatch向け
 
+- [Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/video-ss/)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/video-ss/kbmkhckhdahkmplkpndnhfohnkfmjmha)
+
 ## 使い方
 
 1. git cloneする

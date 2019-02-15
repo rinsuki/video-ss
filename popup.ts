@@ -1,8 +1,6 @@
 
-chrome.tabs.query({active: true}, tabs => {
-    const tab = tabs[0]
-    if (tab == null) return
-    chrome.tabs.captureVisibleTab(tab.windowId, {format: "png"}, dataUrl => {
+chrome.windows.getCurrent(window => {
+    chrome.tabs.captureVisibleTab(window.id, {format: "png"}, dataUrl => {
         const img = new Image()
         img.src = dataUrl
         img.onload = () => {

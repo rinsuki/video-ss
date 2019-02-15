@@ -8,6 +8,6 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "<all_urls>"
+        "activeTab"
     ]
 }
