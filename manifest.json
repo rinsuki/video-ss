@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Video SS",
     "description": "タブのスクショを撮ってvideoタグのところだけ切り抜くやつ",
-    "version": "0.1",
+    "version": "0.1.1",
     "browser_action": {
         "default_title": "Video SS",
         "default_popup": "popup.html"
