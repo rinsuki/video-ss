@@ -4,7 +4,6 @@
 主にZenzaWatch向け
 
 - [Firefox Add-ons](https://addons.mozilla.org/ja/firefox/addon/video-ss/)
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/video-ss/kbmkhckhdahkmplkpndnhfohnkfmjmha)
 
 ## 使い方
 
@@ -17,9 +16,6 @@
 1. スクショが撮れる
 1. うれしい
 
-## FAQ
+## LICENSE
 
-|Q|A|
-|---|---|
-|Chrome Web Storeに出せ|そのうち|
-|ライセンスは|MIT Licese|
+MIT License.
